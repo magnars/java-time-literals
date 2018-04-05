@@ -13,9 +13,11 @@ Add `[java-time-literals "2018-04-05"]` to `:dependencies` in your `project.clj`
 
 ## Usage
 
-Require `java-time-literals.core` and start using the literals:
+Require the library and start using literals:
 
 ```clj
+(require 'java-time-literals.core)
+
 #time/dur "PT15M" ;; Duration
 #time/inst "2007-12-03T10:15:30.00Z" ;; Instant
 #time/ld "2007-12-03" ;; LocalDate
