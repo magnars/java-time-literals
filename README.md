@@ -5,7 +5,7 @@ A Clojure library that defines literals for
 classes.
 
 It does this by registering edn tags for reading, and adding handlers for
-`clojure.core/print-method`.
+`clojure.core/print-method` and `clojure.core/print-dup`.
 
 ## Install
 
@@ -31,6 +31,10 @@ Require `java-time-literals.core` and start using the literals:
 #time/zid "Europe/Paris" ;; ZoneId
 #time/zoffset "+02:00" ;; ZoneOffset
 ```
+
+You'll notice that most of these are quite short. The idea is that you're using
+literals to keep things terse. Readability comes as much from the format string
+as the tag name.
 
 ## License
 
