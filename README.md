@@ -9,7 +9,7 @@ It does this by registering edn tags for reading, and adding handlers for
 
 ## Install
 
-Add `[java-time-literals "2018-04-05"]` to `:dependencies` in your `project.clj`.
+Add `[java-time-literals "2018-04-06"]` to `:dependencies` in your `project.clj`.
 
 ## Usage
 

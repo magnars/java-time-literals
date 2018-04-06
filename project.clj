@@ -1,4 +1,4 @@
-(defproject java-time-literals "2018-04-05"
+(defproject java-time-literals "2018-04-06"
   :description "A Clojure library that defines literals for java.time classes."
   :url "https://github.com/magnars/java-time-literals"
   :license {:name "BSD-3-Clause"
