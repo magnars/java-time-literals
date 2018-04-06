@@ -38,6 +38,17 @@ You'll notice that most of these are quite short. The idea is that you're using
 literals to keep things terse. Readability comes as much from the format string
 as the tag name.
 
+### Require vs injection
+
+If you want to use these literals in your tests, but don't have a natural main
+function or entry point to hold the require, you might find yourself requiring
+the namespace again and again. Instead, you can add an injection to your
+`project.clj`:
+
+```clj
+:injections [(require 'java-time-literals.core)]
+```
+
 ## License
 
 Copyright © (iterate inc 2018) Magnar Sveen
