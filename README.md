@@ -49,6 +49,89 @@ the namespace again and again. Instead, you can add an injection to your
 :injections [(require 'java-time-literals.core)]
 ```
 
+### Enums
+
+Enum tags are represented with keywords.
+
+```clj
+;; ChronoUnit
+
+#time/unit :centuries
+#time/unit :days
+#time/unit :decades
+#time/unit :eras
+#time/unit :forever
+#time/unit :half-days
+#time/unit :hours
+#time/unit :micros
+#time/unit :millennia
+#time/unit :millis
+#time/unit :minutes
+#time/unit :months
+#time/unit :nanos
+#time/unit :seconds
+#time/unit :weeks
+#time/unit :years
+
+;; ChronoField
+
+#time/field :aligned-day-of-week-in-month
+#time/field :aligned-day-of-week-in-year
+#time/field :aligned-week-of-month
+#time/field :aligned-week-of-year
+#time/field :ampm-of-day
+#time/field :clock-hour-of-ampm
+#time/field :clock-hour-of-day
+#time/field :day-of-month
+#time/field :day-of-week
+#time/field :day-of-year
+#time/field :epoch-day
+#time/field :era
+#time/field :hour-of-ampm
+#time/field :hour-of-day
+#time/field :instant-seconds
+#time/field :micro-of-day
+#time/field :micro-of-second
+#time/field :milli-of-day
+#time/field :milli-of-second
+#time/field :minute-of-day
+#time/field :minute-of-hour
+#time/field :month-of-year
+#time/field :nano-of-day
+#time/field :nano-of-second
+#time/field :offset-seconds
+#time/field :proleptic-month
+#time/field :second-of-day
+#time/field :second-of-minute
+#time/field :year
+#time/field :year-of-era
+
+;; Month
+
+#time/month :january
+#time/month :february
+#time/month :march
+#time/month :april
+#time/month :may
+#time/month :june
+#time/month :july
+#time/month :august
+#time/month :september
+#time/month :october
+#time/month :november
+#time/month :december
+
+;; DayOfWeek
+
+#time/day :monday
+#time/day :tuesday
+#time/day :wednesday
+#time/day :thursday
+#time/day :friday
+#time/day :saturday
+#time/day :sunday
+```
+
 ## License
 
 Copyright © (iterate inc 2018) Magnar Sveen

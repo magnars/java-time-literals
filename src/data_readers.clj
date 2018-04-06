@@ -11,4 +11,10 @@
  time/ym java-time-literals.core/parse-year-month
  time/zdt java-time-literals.core/parse-zoned-date-time
  time/zid java-time-literals.core/parse-zone-id
- time/zoffset java-time-literals.core/parse-zone-offset}
+ time/zoffset java-time-literals.core/parse-zone-offset
+
+ ;; enums
+ time/unit java-time-literals.core/chrono-units
+ time/field java-time-literals.core/chrono-fields
+ time/month java-time-literals.core/months
+ time/day java-time-literals.core/days-of-week}
